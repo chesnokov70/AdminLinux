@@ -59,3 +59,12 @@ sudo -i
 Не оставляй root-пару открытой без необходимости.
 
 Логи sudo помогают аудитировать действия.
+---------------------------------------------------
+cat error.txt | head -2 - 2 stroki snachala
+ 
+cat error.txt | tail -2 -2 stroki s kontsa
+
+sudo less errors.txt - /apt serch apt - q - vychod
+
+
+
