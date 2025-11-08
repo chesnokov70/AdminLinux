@@ -66,5 +66,35 @@ cat error.txt | tail -2 -2 stroki s kontsa
 
 sudo less errors.txt - /apt serch apt - q - vychod
 
+ touch 2.txt
+ 4926  ll
+ 4927  cat > 2.txt
+ 4928  cat  2.txt
+ 4929  cat 1.txt > 4.txt
+ 4930  cat 4.txt
+ 4931  cat 1.txt >> 4.txt
+ 4932  cat 4.txt
+ 4933  ll
+ 4934  mv 1.txt 2.txt 4.txt AdminLinux
+ 4935  ll
+ 4936  cd AdminLinux
+ 4937  ll
+ 4938  ls --help > helpfile.txt
+ 4939  ll
+ 4940  cat helpfile.txt
+ 4946  grep hello < 1.txt
+ 4947  cat 1.txt
+grep -i hello < 1.txt
 
-
+➜  ~ cd /etc
+➜  /etc grep -i ipv4 < sysctl.conf
+#net.ipv4.conf.default.rp_filter=1
+#net.ipv4.conf.all.rp_filter=1
+#net.ipv4.tcp_syncookies=1
+# Uncomment the next line to enable packet forwarding for IPv4
+#net.ipv4.ip_forward=1
+#net.ipv4.conf.all.accept_redirects = 0
+# net.ipv4.conf.all.secure_redirects = 1
+#net.ipv4.conf.all.send_redirects = 0
+#net.ipv4.conf.all.accept_source_route = 0
+#net.ipv4.conf.all.log_martians = 1
